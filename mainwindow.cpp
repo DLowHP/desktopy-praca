@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 
 #include "Okno.h"
+#include "dlowhp.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -20,12 +21,13 @@ MainWindow::~MainWindow()
 
 void MainWindow::onFirstWindowButtonClicked()
 {
-    Okno ok;
-    ok.exec();
+    Okno window;
+    window.exec();
 }
 
 void MainWindow::onSecondWindowButtonClicked()
 {
-
+    dlowhp window;
+    window.exec();
 }
 
