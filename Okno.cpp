@@ -15,5 +15,5 @@ Okno::~Okno()
 
 void Okno::on_pushButton_clicked()
 {
-    ui->label->setText("Hello world!");
+    ui->label->setText("Hello world!!!");
 }
