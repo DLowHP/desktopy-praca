@@ -10,18 +10,24 @@ CONFIG += c++11
 
 SOURCES += \
     Okno.cpp \
+    dlowhp.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     Okno.h \
+    dlowhp.h \
     mainwindow.h
 
 FORMS += \
     Okno.ui \
+    dlowhp.ui \
     mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    assets.qrc

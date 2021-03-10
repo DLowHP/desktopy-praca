@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/dlowhp-round.png</file>
+    </qresource>
+</RCC>
